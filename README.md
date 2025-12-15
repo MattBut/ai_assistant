@@ -1,11 +1,11 @@
 # ai_assistant
-
+#
 Gemini CLI Interview Framework.
-
+#
 This framework serves as a ready-made, modular foundation for building specialized AI tools capable of listening to verbal dialogue (an interview) and delivering structured, textual analysis or responses. 
 
-📘 Deployment Guide: Gemini CLI Framework
-
+# 📘 Deployment Guide: Gemini CLI Framework
+#
 This guide provides instructions for setting up and running the Gemini Command Line Interface (CLI) Assistant on both Linux (Ubuntu) and Windows operating systems.
 
 Prerequisites
@@ -15,9 +15,9 @@ Python 3.10+ (Required).
 An active internet connection.
 
 An API Key from Google AI Studio.
-
+#
 🔑 Step 1: Obtain and Configure the API Key
-
+#
 The assistant requires a Gemini API key to function.
 
 Get the Key: Register with Google AI Studio and obtain your Gemini API key.
@@ -29,9 +29,9 @@ Ini, TOML
 .env file
 
 GEMINI_API_KEY="YOUR_KEY_HERE"
-
+#
 💻 Step 2: Deployment on Ubuntu (Linux)
-
+#
 2.1. Install System Dependencies
 
 The Voice Mode (pyaudio) and system information retrieval (neofetch) require specific system packages.
@@ -79,9 +79,9 @@ Bash
 python3 ai_asistent.py
 
 At the start of the session, you will be able to select Voice Chat Mode or Standard Text Chat.
-
+#
 🪟 Step 3: Deployment on Windows
-
+#
 3.1. Install System Dependencies
 
 Python: Ensure you have Python 3.10+ installed and added to your system's PATH environment variable.
@@ -130,8 +130,8 @@ Analyze Command (Text Mode): Use the following command structure to analyze loca
 
 /analyze <folder_path> "Your query in quotes"
 
-🛠️ User Guide: Gemini CLI Framework
-
+# 🛠️ User Guide: Gemini CLI Framework
+#
 After launching the assistant, you will go through three main stages: Language Selection, History Selection, and Mode Selection.
 
 1. Session Start-up
