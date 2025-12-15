@@ -9,14 +9,11 @@ from dotenv import load_dotenv
 from google import genai
 from google.genai.errors import APIError
 from google.genai import types
-
-# --- НОВЫЕ ИМПОРТЫ ДЛЯ ГОЛОСОВОГО РЕЖИМА ---
 # Requires: pip install SpeechRecognition pyaudio
 import speech_recognition as sr
 # ---------------------------------------------
 
 # --- GLOBAL CONSTANTS AND SETUP ---
-# Увеличенная квота для бесплатного тарифа
 MODEL_NAME = "gemini-2.5-flash-lite" 
 HISTORY_LIMIT = 10 
 TEMP_FILE_LIST = [] 
