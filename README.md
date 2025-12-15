@@ -1,5 +1,3 @@
-# ai_assistant
-
 # Gemini CLI Interview Framework.
 
 This framework serves as a ready-made, modular foundation for building specialized AI tools capable of listening to verbal dialogue (an interview) and delivering structured, textual analysis or responses. 
@@ -24,8 +22,6 @@ Get the Key: Register with Google AI Studio and obtain your Gemini API key.
 
 Create the .env File: In the root folder of your project (e.g., ai_asistent), create a file named .env and add your key in the following format:
 
-Ini, TOML
-
 .env file
 
 GEMINI_API_KEY="YOUR_KEY_HERE"
@@ -38,13 +34,9 @@ The Voice Mode (pyaudio) and system information retrieval (neofetch) require spe
 
 Update package lists:
 
-Bash
-
 sudo apt update
 
 Install PortAudio (for PyAudio) and Neofetch:
-
-Bash
 
 sudo apt install libasound-dev portaudio19-dev neofetch
 
@@ -52,19 +44,13 @@ sudo apt install libasound-dev portaudio19-dev neofetch
 
 Create a virtual environment (recommended):
 
-Bash
-
 python3 -m venv ai_asistent_env
 
 Activate the environment:
 
-Bash
-
 source ai_asistent_env/bin/activate
 
 Install all required Python libraries:
-
-Bash
 
 pip install google-genai python-dotenv SpeechRecognition pyaudio
 
@@ -73,8 +59,6 @@ pip install google-genai python-dotenv SpeechRecognition pyaudio
 Ensure you are in the project directory and the ai_asistent.py file is present.
 
 Run the assistant:
-
-Bash
 
 python3 ai_asistent.py
 
@@ -90,19 +74,13 @@ Python: Ensure you have Python 3.10+ installed and added to your system's PATH e
 
 Create a virtual environment:
 
-Bash
-
 python -m venv ai_asistent_env
 
 Activate the environment:
 
-Bash
-
 .\ai_asistent_env\Scripts\activate
 
 Install all required Python libraries:
-
-Bash
 
 pip install google-genai python-dotenv SpeechRecognition pyaudio
 
@@ -113,8 +91,6 @@ Note on PyAudio: If pip install pyaudio fails, try installing it via Conda (if y
 Ensure you are in the project directory and the ai_asistent.py file is present.
 
 Run the assistant:
-
-Bash
 
 python ai_asistent.py
 
@@ -188,12 +164,9 @@ This command allows you to upload the contents of an entire folder for AI analys
 
     • Format:
 
-Bash
 /analyze <folder_path> "Your query enclosed in double quotes"
 
     • Example Usage:
-
-Bash
 
 >> You: /analyze ./src/my_project "Check this code for SQL injection vulnerabilities and suggest refactoring"
 
@@ -207,13 +180,9 @@ NOTE: All uploaded files are automatically deleted from the Gemini cloud after t
 
 To exit and save the dialogue history, enter:
 
-Bash
-
 >> You: exit
 
 or
-
-Bash
 
 >> You: quit
 
