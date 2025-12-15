@@ -11,8 +11,6 @@ from google.genai.errors import APIError
 from google.genai import types
 # Requires: pip install SpeechRecognition pyaudio
 import speech_recognition as sr
-# ---------------------------------------------
-
 # --- GLOBAL CONSTANTS AND SETUP ---
 MODEL_NAME = "gemini-2.5-flash-lite" 
 HISTORY_LIMIT = 10 
