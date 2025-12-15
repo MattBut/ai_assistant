@@ -1,11 +1,11 @@
 # ai_assistant
-#
-Gemini CLI Interview Framework.
-#
-This framework serves as a ready-made, modular foundation for building specialized AI tools capable of listening to verbal dialogue (an interview) and delivering structured, textual analysis or responses. 
 
-# 📘 Deployment Guide: Gemini CLI Framework
+# Gemini CLI Interview Framework.
+
+This framework serves as a ready-made, modular foundation for building specialized AI tools capable of listening to verbal dialogue (an interview) and delivering structured, textual analysis or responses. 
 #
+# 📘 Deployment Guide: Gemini CLI Framework
+
 This guide provides instructions for setting up and running the Gemini Command Line Interface (CLI) Assistant on both Linux (Ubuntu) and Windows operating systems.
 
 Prerequisites
@@ -129,9 +129,9 @@ History: All dialogues are saved in files with the .chat_history.txt extension i
 Analyze Command (Text Mode): Use the following command structure to analyze local files or folder contents:
 
 /analyze <folder_path> "Your query in quotes"
-
-# 🛠️ User Guide: Gemini CLI Framework
 #
+# 🛠️ User Guide: Gemini CLI Framework
+
 After launching the assistant, you will go through three main stages: Language Selection, History Selection, and Mode Selection.
 
 1. Session Start-up
